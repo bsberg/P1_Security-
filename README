@@ -1,7 +1,5 @@
 README
-@BRIAN BERG
-
-Slip Days: 0
+@author: BRIAN BERG
 
 netrecon.c
 Contains all code pertaining to the testing of servers.
