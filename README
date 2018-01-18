@@ -1,0 +1,17 @@
+README
+@BRIAN BERG
+
+Slip Days: 0
+
+netrecon.c
+Contains all code pertaining to the testing of servers.
+Tests all servers from 1025 to 65536 to see if they are TCP.
+Once a TCP server is identified it will test the handshake input 
+to see if it is the CAPS server. If it is successful then strings will
+be fed to that server until the appropraite combination is found. 
+Prints the CAPS Server and the correct 4 numbers that need to be sent to it
+in order to return found. 
+
+Makefile 
+Compiles netrecon.c 
+Removes netrecon executable 
